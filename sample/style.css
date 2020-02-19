@@ -1,0 +1,61 @@
+.root{
+ -fx-background-image: url("Images/weather.jpeg");
+ -fx-background-position: center center;
+}
+
+#start {
+    -fx-background-color: linear-gradient(#f0ff35, #a9ff00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: black;
+}
+
+#stop {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+#pauza {
+    -fx-background-color: linear-gradient(#20262b, #191d22);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+
+
+#label1 {
+ -fx-font-weight: bold;
+    -fx-text-fill: #d6d3d3;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-font-size: 12pt;
+}
+#label2 {
+ -fx-font-weight: bold;
+    -fx-text-fill: #d6d3d3;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-font-size: 12pt;
+}
+
+#title1 {
+ -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-font-size: 12pt;
+}
+#title2 {
+ -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-font-size: 12pt;
+}
+
+.menu-bar{
+  -fx-background-color: linear-gradient(#eaba28,#e0d9c4);
+  -fx-border-color:  #f0cd90;
+ -fx-border-width: 2
+
+
+}
